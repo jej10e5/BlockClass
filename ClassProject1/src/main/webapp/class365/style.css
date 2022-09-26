@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url("color.css");
+@import url("header_style.css");
+
+@font-face {
+    font-family: 'EliceDigitalBaeum-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	font-family:'EliceDigitalBaeum-Bd';
+} 
+pre{
+	font-family:'EliceDigitalBaeum-Bd';
+} 
+
+body{ 
+	overflow-x:hidden;
+	overflow-y:scroll;	 
+}
+
+
+.btn{
+	background-color:#ff6f61!important;	
+	border:none !important;	
+	color:white;
+}
+.btn:hover{
+	background-color:#fda166!important;	
+}
+ 
+
+/*폰트*/ 
+.c_font_main{ 
+	font-family:'EliceDigitalBaeum-Bd';
+	font-size: 35px !important;
+}
+
+.c_font_category{
+	font-family:'EliceDigitalBaeum-Bd';
+	font-size: 20px !important;
+}
+.c_font_subject{
+	font-family:'EliceDigitalBaeum-Bd';
+	font-size: 15px !important;
+}
+
+.c_font_content{
+	font-family:'EliceDigitalBaeum-Bd';
+	font-size: 12px !important;
+}
+
+/*padding*/ 
+.pd_zero{
+	padding:0px!important;
+}
+.pd_side{
+	padding:0px 3%!important;
+}
+
+/*margin*/
+.mg_zero{/*모든 margin 0*/
+	margin:0px !important;
+}
+.mg_side{/*위아래 margin 0, 양옆 10px*/
+	margin:0px 10px !important;
+}
+
+/*버튼*/
+.c_btn{
+	border: none;
+	color : white;
+	width:flex;
+	height:flex;
+	font-size: 20px;
+	font-family:'EliceDigitalBaeum-Bd';
+	text-align: center;
+	border-radius: 5px;
+	margin:5px;
+	padding:5px 10px;
+	background-color: #ff6f61; 
+}
+
+.c_btn:hover{/*버튼 마우스 올렸을때*/
+	background-color: #fda166;
+}

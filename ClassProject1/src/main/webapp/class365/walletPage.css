@@ -1,0 +1,923 @@
+@charset "UTF-8";
+
+/* global */
+
+.btn_modify{
+	border: none;
+	border-radius:2px;
+	background-color:#fec9a5;
+}
+.btn_modify:hover{
+	border: none;
+	border-radius:2px;
+	background-color:#fda166;
+	
+}
+.btn_delete{
+	border: none;
+	border-radius:2px;
+	background-color:#ff968a;
+}
+.btn_delete:hover{
+	border: none;
+	border-radius:2px;
+	background-color:#ff6f61;
+	
+}
+.btn_delete:active {
+   transform: scale(0.95);
+}
+.btn_sta1{
+	border: none;
+	border-radius:2px;
+	background-color:#ff8ec7;
+}
+.btn_sta1:hover{
+	border: none;
+	border-radius:2px;
+	background-color:#ff0080;
+	
+}
+.btn_sta2{
+	border: none;
+	border-radius:2px;
+	background-color:#c67d9f;
+}
+.btn_sta2:hover{
+	border: none;
+	border-radius:2px;
+	background-color:#9c446e;
+	
+}
+.profile-card{
+	background-color: rgb(255 111 97 / 83%);
+    background-size: cover;
+    width: 100%;
+    min-height: 90px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #fff;
+
+}
+.profile-photo{
+	border: 7px solid #fff;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    margin-top: -5;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.text-white{
+font-size: 18px;
+color: #fff!important;
+
+}
+.my_lec{
+    
+    font-size: 18px;
+    margin-right: 15px;
+    float: left;
+    font-family: "Font Awesome 6 Free";
+    
+}
+.icon1{
+	color: #8dc63f;
+}
+.icon2{
+	color:#662d91;
+}
+
+.icon4{
+	color: #ee2a7b;
+}
+.cate_name_css{
+	margin-left: 15px;
+    margin-top: 3px;
+}
+.pro_img{
+	border-radius:20px;
+}
+.profile{
+	overflow:hidden; 
+	display:flex; 
+	width:100%; 
+	height:100%; 
+	object-fit:cover;
+	transition: all 0.2s linear;
+	max-width:100%;
+}
+.lvbox{
+	position:absolute; 
+	top:10px; 
+	left:10px;
+	border:solid 1px white;
+	border-radius:7px;
+	color:white;
+	padding:3px 5px;
+}
+.cbox{
+	position:absolute; 
+	top:10px; 
+	left:80px;
+	border:solid 1px white;
+	border-radius:7px;
+	color:white;
+	padding:3px 5px;
+}
+.sbox{
+	position:absolute; 
+	bottom:210px; 
+	left:10px;
+	border:solid 1px white;
+	border-radius:7px;
+	color:white;
+	padding:3px 5px;
+}
+.hebox{
+	position:absolute; 
+	top:15px; 
+	right:15px;
+	z-index:100;
+
+}
+.lv1{
+	background-color:#fda166;
+}
+.lv2{
+	background-color:#ff6f61;
+}
+.lv3{
+	background-color:#9c446e;
+}
+.ca1{
+	background-color:#fda166;
+}
+.ca2{
+	background-color:#ff6f61;
+}
+.ca3{
+	background-color:#9c446e;
+}
+.s1{
+	background-color:#ff6f61;
+}
+.s2{
+	background-color:#9c446e;
+}
+.card{
+	border:none;
+}
+.card img{
+	border-radius:20px;
+}
+.card:hover{
+	cursor:pointer;
+}
+.card:hover img{
+	transform:scale(1.2);
+}
+
+/* tutorMain_style*/
+
+#total_div{
+    display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+#mid_div{
+	 display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: row;
+
+ }
+
+ 
+#side_bar_div {
+    display: flex;
+ }
+
+#side_bar_size{
+border-radius: 0px;
+    width: 240px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(229, 229, 229);
+    left: 0px;
+    position: fixed;
+}
+#tutor_div{
+	display: flex;
+    width: 100%;
+    padding-left: 0px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+    padding-left: 240px;
+}
+#tutor_div_2{
+	display: flex;
+    width: 100%;
+    padding-left: 0px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+    padding-left: 90px;
+}
+#side_bar_pos{
+	display: flex;
+    height: calc(100vh - 78px);
+    min-width: 240px;
+    width: 240px;
+    overflow-y: auto;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: row;
+}
+#side_line{
+	flex: 0 0 auto;
+    background-color: rgb(229, 229, 229);
+    width: 1px;
+    height: 100%;
+}
+#side_menu{
+	display: flex;
+    width: 100%;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+}
+#side_cate{
+	display: flex;
+    padding: 12px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#side_top_div{
+	display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+}
+.cate_div{
+	background-color: rgb(255, 255, 255);
+    padding: 23px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+}
+.cate_div:hover{
+background-color: #f8f9fa;
+}
+.cate_subject{
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.cate_space{
+	display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: row;
+}
+.cate_name_css{
+	border-width: 0px;
+    color: var(--system-on-color);
+    margin: 0px;
+    padding: 0px;
+}
+.cate_icon{
+	display: block;
+    width: 20px;
+    height: 20px;
+    margin-top:3px;
+}
+.icon_pos{
+	display: block;
+    width: 100%;
+    height: 100%;
+    fill: rgb(26, 26, 26);
+}
+.cate_icon_space{
+	width: 20px;
+    height: 0px;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+	}
+#tutor_main_article{
+	    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex-direction: column;
+}
+#tutor_div_space{
+	    width: 0px;
+    height: 72px;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+#tutor_main_margin{
+	display: flex;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1232px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+#tutor_top_topic{
+	display: flex;
+    padding-bottom: 16px;
+    padding-top: 24px;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.topic{
+	    border-width: 0px;
+    color: rgb(26, 26, 26);
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+#make_class_btn{
+	cursor: pointer;
+    --system-on-color: #FFFFFF;
+    background-color: rgb(255, 91, 20);
+    color: var(--system-on-color);
+    border-width: 0px;
+    border-radius: 2px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: inline-flex;
+    padding: 10px 14px 10px 12px;
+    position: relative;
+}
+#inher_span{
+	display: flex;
+    visibility: inherit;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;    
+}
+#btn_icon_span{
+	width: 18px;
+    height: 18px;
+}
+#btn_subject{
+	border-width: 0;
+    color: var(--system-on-color);
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    line-height: 1.125rem;
+}
+.tutor_table{
+width:1000px; 
+height:auto; 
+padding-top:20px;
+}
+#table_div{
+	overflow-x:scroll; 
+	max-width:100%;
+}
+
+/* 전자지갑 영역 */
+
+/* 지갑 없는 경우 */
+.no_wallet{
+	display: flex;
+	width: 100%;
+    align-items: center;
+    margin-top: 100px;
+}
+
+button.create_wallet, 
+button.open_wallet, 
+button.send_tx_info, 
+button.get_tx_id{
+	font-size: 40px;
+	width: 80px;
+	height: 50px;
+    color: #FF6F61;
+    background-color: transparent;
+    box-shadow: 0 2px 2px #999;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+   	transition: transform 80ms ease-in;
+   	margin-left: 50px;
+}
+button.create_wallet:active, 
+button.open_wallet:active, 
+button.send_tx_info:active,
+button.get_tx_id:active {
+   transform: scale(0.95);
+}
+button.create_wallet:hover, 
+button.open_wallet:hover, 
+button.send_tx_info:hover,
+button.get_tx_id:hover {
+   color: white;
+   background-color: #FF6F61;
+}
+
+/* 지갑 생성 확인창 */
+.hidden {
+	display: none;
+}
+
+.alertArea {
+	position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
+	z-index: 900;
+	color: #fff;
+	pointer-events: none;
+}
+	
+.alertArea .background {
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+}
+	
+.alertArea .alert__container {
+	width: 400px;
+	pointer-events: auto;
+	background: #222;
+	border-radius: 1rem;
+	position: absolute; left: 30%; top: 30%;
+	padding: 20px;
+	border: 1px solid #000;
+	min-width: 250px;
+	z-index: 999;
+}
+	
+.alertArea .alert__header {
+	font-size: 2em;
+	font-family: Helvetica, sans-serif;
+}
+	
+.alertArea .alert__body {
+	color: #aaa;
+	font-family: Helvetica, sans-serif;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+	
+.alertArea .alert__footer {
+	position: absolute; bottom: 20px; right: 30px;
+	text-align: right;
+}
+.confirmBtn {
+	margin: 3px;
+	padding: 7px 9px 7px 9px;
+	border: 2px solid #222;
+	color: #ddd;
+	cursor: pointer;
+}
+.confirmBtn:hover {
+	background: #555;
+	border-color: #888;
+}
+.confirmBtn:active {
+	border-color: #aaa;
+}
+.confirmBtn:focus {
+	outline: 0;
+}
+.alert__footer button{
+	margin-left: 10px;
+}
+
+
+
+/* 지갑 있는 경우 */
+.my_wallet_title{
+	display: flex;
+	width: 100%;
+    align-items: center;
+    margin-top: 100px;
+}
+.about_wallet{
+    display: flex;
+    justify-content: center;
+    padding : 40px;
+    flex-wrap: wrap;
+}
+
+.snip1336 {
+    font-family: 'Roboto', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.4em;
+    background-color: #141414;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.snip1336 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.snip1336 img {
+    max-width: 100%;
+    height : 300px;
+    vertical-align: top;
+    opacity: 0.85;
+}
+.snip1336 figcaption {
+    width: 100%;
+    background-color: #141414;
+    padding: 25px;
+    position: relative;
+}
+.snip1336 figcaption:before {
+    position: absolute;
+    content: '';
+    bottom: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 55px 0 0 400px;
+    border-color: transparent transparent transparent #141414;
+}
+.snip1336 .profile {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100%;
+    left: 25px;
+    z-index: 1;
+    max-width: 90px;
+    max-height: 90px;
+    opacity: 1;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.snip1336 h2 {
+    margin: 0 0 5px;
+    font-weight: 300;
+    color: white;
+}
+.snip1336 h2 span {
+    display: block;
+    font-size: 0.5em;
+    color: #2980b9;
+}
+.snip1336 p {
+    margin: 0 0 10px;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    color: white;
+}
+.charge{
+	display: flex;
+	justify-content: space-between;
+}
+.btn_charge{
+	height: 50px;
+    color: #FF6F61;
+    background-color: transparent;
+    box-shadow: 0 2px 2px #999;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+   	transition: transform 80ms ease-in;
+}
+.btn_charge:active {
+   transform: scale(0.95);
+}
+.btn_charge:hover {
+   color: white;
+   background-color: #FF6F61;
+}
+/* 지갑 생성 알림 */
+.wal_result{
+	margin-left: 100px;
+}
+/* 지갑주소 보여주기 */
+.show_addr{
+	margin-top: 30px;
+	margin-left: 300px;
+}
+/* 캐쉬 충전 모달 */
+.modal-window{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    height: auto;
+}
+.modal-window:target{
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal-window > div{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 2px #999;
+    padding: 2em;
+    background: #222;
+    border-radius: 1rem;
+}
+.modal-window header {
+    font-weight: bold;
+}
+.modal-window h1 {
+	color: white;
+    font-size: 150%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.modal-close {
+    color: #aaa;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+}
+.modal-close:hover {
+    color: white;
+}
+.modal-window div:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+.modal-btn, input.modal-btn{
+	width: 80px;
+    height: 30px;
+    color: black;
+    background-color: #FF6F61;
+    box-shadow: 0 2px 2px #999;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+   	transition: transform 80ms ease-in;
+   	margin-left: 30px;
+}
+.modal-btn:active {
+   transform: scale(0.95);
+}
+.modal-btn:hover {
+   color: white;
+   background-color: #FF6F61;
+}
+.cash_container {
+    max-width: 960px;
+    margin: 30px auto;
+}
+.cash-charge {
+    position: relative;
+    max-width: 205px;
+    margin: 50px auto;
+}
+.coin-charge {
+    position: relative;
+    max-width: 410px;
+    margin: 50px auto;
+}
+.wrap-input-btn{
+	display: flex;
+	align-items: center;
+}
+
+/* 코인 충전 페이지 */
+.section{
+    text-align: center;
+    margin: auto;
+}
+.section_container-1{
+    max-width: 1200px;
+    background-color: #FF6F61;
+    margin-top: 100px;
+    margin-left : 300px;
+    box-shadow: 0 2px 2px #999;
+    border-radius: 20px;
+    
+}
+.section_container-2{
+    max-width: 1200px;
+    margin-top: 50px;
+    margin-left : 300px;
+}
+.currency__set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.currency__left{
+    flex-basis: 60%;
+    text-align: left;
+}
+.currency__right{
+    flex-basis: 40%;
+}
+.currency__left h3{
+    font-size: 30px;
+    color : black;
+}
+.currency__left p{
+    font-size: 15px;
+    color : white;
+}
+
+/* 결제정보 확인 */
+.buy_confirm{
+	margin-top:30px;
+	display: flex;
+    align-items: center;
+    width:100%;
+}
+button.send_tx{
+	font-size: 20px;
+	width: 80px;
+	height: 50px;
+    color: #FF6F61;
+    background-color: transparent;
+    box-shadow: 0 2px 2px #999;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+   	transition: transform 80ms ease-in;
+   	margin-top: 10px;
+   	margin-left: 50px;
+}
+button.send_tx:active{
+	 transform: scale(0.95);
+}
+button.send_tx:hover{
+	color: white;
+  	background-color: #FF6F61;
+}
+
+/* 영수증 */
+#showScroll {
+  margin-left: 200px;
+  box-sizing: border-box;
+  color: #1f1f1f;
+}
+.blc_container {
+  background: #f1f1f1;
+  padding: 20px 10px;
+}
+.bold {
+  font-weight: bold;
+}
+.center {
+  text-align: center;
+}
+.receipt {
+  width: 400px;
+  min-height: 100vh;
+  background: #fff;
+  margin: auto;
+  box-shadow: 5px 5px 19px #ccc;
+  padding: 10px;
+}
+.blc_logo {
+  text-align: center;
+  padding: 20px;
+}
+.barcode {
+  font-size: 42px;
+  text-align: center;
+}
+.address {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.transactionDetails {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px 10px;
+}
+.transactionDetails .detail {
+  text-transform: uppercase;
+}
+.survey {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.survey .surveyID {
+  font-size: 15px;
+  width:300px;
+  word-wrap: break-word;
+}
+.creditDetails {
+  margin: 10px auto;
+  width: 230px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.receiptBarcode {
+  margin: 10px 0;
+  text-align: center;
+}
+.returnPolicy {
+  margin: 10px 20px;
+  text-align: center;
+}
+.tripSummary {
+  margin: auto;
+  width: 255px;
+}
+.tripSummary .item {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 220px;
+}
+
+.feedback {
+  margin: 20px auto;
+}
+.feedback h3.clickBait {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+.feedback h4.web {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+.feedback .break {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* 긴 문자열 생략 */
+
+.text-over-cut {
+  display: block;
+  width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-over-cut:hover {
+    text-overflow: clip;
+    white-space: normal;
+    word-break: break-all;
+}

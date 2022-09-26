@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*색깔*/
+*{
+	font-family:'EliceDigitalBaeum-Bd';
+}
+
+.cc_main{
+	color:#ff6f61!important;
+		
+}
+.cc_orange{
+	color: #fda166!important;
+}
+.cc_pink{
+	color: #ff0080!important;
+}
+.cc_purple{
+	color: #9c446e!important;
+}
+.cc_gray{
+	color:#868e96!important;
+}
+.cc_white{
+	color:white!important;
+}
+.cc_black{
+	color:black!important;
+}
+
+/*배경색*/
+.cb_main{
+	background-color: #ff6f61;
+}
+.cb_orange{
+	background-color: #fda166;
+}
+.cb_pink{
+	background-color: #ff0080;
+}
+.cb_purple{
+	background-color: #9c446e;
+}
+.cb_white{
+	background-color:white;
+}
