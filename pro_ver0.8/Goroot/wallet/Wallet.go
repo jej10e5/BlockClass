@@ -34,7 +34,7 @@ type Wallets struct {
 func GetWallets() *Wallets {
 	//gob.Register(elliptic.P256())
 
-	bws, err := ioutil.ReadFile("./wallets2.json")
+	bws, err := ioutil.ReadFile("./wallets.json")
 	if err != nil {
 		return &Wallets{make(map[string]*Wallet)}
 	}
