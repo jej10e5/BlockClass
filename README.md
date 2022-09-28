@@ -1,4 +1,5 @@
-# BlockClassProject
+# BlockClassProject <a href="https://www.youtube.com/watch?v=ZxV86RR2kP8&t=1s"> <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=YouTube&logoColor=white"/></a>
+
 지난 프로젝트에서 강의를 사고 파는 사이트를 만들었습니다.   
 이를 블록체인에 적용하여 강의 거래가 이루어지면 거래 내용을 블록에 넣어 대쉬보드에 보여주는 기능을 추가하여 블록체인을 활용하는 강의 거래 사이트로 바꾸려고 합니다. 
 ![image](https://user-images.githubusercontent.com/61136630/192709044-edb49a90-4722-409f-a33f-0c32de7f6ab3.png)
