@@ -40,8 +40,7 @@
 관리자는 유저가 코인 교환 요청을 하면 코인을 바꿔주어야 합니다.    
 따라서 임의로 관리자 지갑에 코인을 넣어 두고 이를 유저에게 주는 방식으로 만들었습니다.   
 관리자 지갑은 pro_ver0.8/restfulapi/wallet.json파일에 임의로 넣어두었습니다.   
-You can see 100,000,000 coins in the store wallet in `pro_ver0.8/restfulapi/wallet.json`.
-![image](https://user-images.githubusercontent.com/61136630/192693800-84e73efc-0813-45ca-9d89-d10451618aaa.png)
+You can see the store wallet in `pro_ver0.8/restfulapi/wallet.json`.
 
 ## How to perform
 1. run `start.bat`    
@@ -55,4 +54,8 @@ This batch file will run servers and nodes.
 wallets.json 파일에 새로운 지갑이 추가된 모습이다.
 
 3. new trasaction
+ - 1. 충전하기
+![image](https://user-images.githubusercontent.com/61136630/192734414-df8f5fb6-34f5-4e9f-8963-bbc955d427a4.png)
+![image](https://user-images.githubusercontent.com/61136630/192735004-14635a25-2484-462e-ab7e-985b9ebd7914.png)
+![image](https://user-images.githubusercontent.com/61136630/192735063-4143bd4e-a30c-4d43-94e8-8199aefe5646.png)
 
