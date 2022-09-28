@@ -54,14 +54,14 @@ This batch file will run servers and nodes.
 ![image](https://user-images.githubusercontent.com/61136630/192698265-306cce7b-818b-4080-9b6b-c4764cd1e2ac.png)
 wallets.json 파일에 새로운 지갑이 추가된 모습이다.
 
-3. new trasaction & block
- - 1. recharging user wallet (store - user)  
+3. new trasaction & block   
+ -1. recharging user wallet (store - user)  
  class365 wallet에서 user wallet으로 코인을 전달하여 사용자의 지갑을 충전한다. 이때 item 데이터 "charge"를 넣는다.
 ![image](https://user-images.githubusercontent.com/61136630/192734414-df8f5fb6-34f5-4e9f-8963-bbc955d427a4.png)
 ![image](https://user-images.githubusercontent.com/61136630/192735004-14635a25-2484-462e-ab7e-985b9ebd7914.png)
 ![image](https://user-images.githubusercontent.com/61136630/192735063-4143bd4e-a30c-4d43-94e8-8199aefe5646.png)
 
- - 2. user - user
+ -2. user - user
  ![image](https://user-images.githubusercontent.com/61136630/192747099-73e875e0-f6b7-4fda-b1d1-e51ba653fbd7.png)
 ![image](https://user-images.githubusercontent.com/61136630/192747439-56f9b605-4306-4b13-9cde-b21ca6026101.png)
 ![image](https://user-images.githubusercontent.com/61136630/192747720-df68a6cb-77b9-4944-8c94-b15f5ea285d6.png)
