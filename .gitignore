@@ -1,4 +1,3 @@
 *.db
 *.db.lock
-wallets.json
 *.log
