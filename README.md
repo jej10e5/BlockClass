@@ -41,7 +41,8 @@
 따라서 임의로 관리자 지갑에 코인을 넣어 두고 이를 유저에게 주는 방식으로 만들었습니다.   
 관리자 지갑은 pro_ver0.8/restfulapi/wallet.json파일에 임의로 넣어두었습니다.   
 블록 서버를 실행하면 자동으로 account가 충전됩니다.   
-You can see the class365 wallet in `pro_ver0.8/restfulapi/wallet.json`.
+You can see the class365 wallet in `pro_ver0.8/restfulapi/wallet.json`.   
+When you run a block server, the class365 wallet is automatically charged.   
 (웹 서버와 연동하려면 웹 db에 관리자 지갑에 wallet.json에 있는 지갑 주소와 잔액을 추가해두어야 합니다.)
 
 ## How to perform
