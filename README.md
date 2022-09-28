@@ -82,7 +82,6 @@ wallets.json 파일에 새로운 지갑이 추가된 모습.
 ### 5. PBFT consensus   
 ![image](https://user-images.githubusercontent.com/61136630/192787182-b53619c5-eaf0-4d54-bee5-c992c1050ab0.png)
 
-## :gem: Idea
 
 
 ## :sparkles: More 
