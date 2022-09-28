@@ -55,7 +55,7 @@ This batch file will run servers and nodes.
 ![image](https://user-images.githubusercontent.com/61136630/192698867-cc256dfb-d42a-40dd-ac69-7fb3aa3e4933.png)   
 ![image](https://user-images.githubusercontent.com/61136630/192698912-a35c4f9d-abfb-45fb-bcd1-5bcfdf35b960.png)    
 ![image](https://user-images.githubusercontent.com/61136630/192698265-306cce7b-818b-4080-9b6b-c4764cd1e2ac.png)   
-wallets.json 파일에 새로운 지갑이 추가된 모습이다.   
+wallets.json 파일에 새로운 지갑이 추가된 모습.   
 
 ### 3. new trasaction & block   
  #### 1. recharging user wallet (store - user)  
