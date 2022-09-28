@@ -26,9 +26,6 @@
   :heavy_check_mark: state를 확인하여 현재 처리 중이라면 새로운 요청은 **버퍼** 에 쌓아두고, 처리를 완료하면 버퍼에서 하나씩 꺼내어 다음 요청을 수행한다.
 
 
-
-
-
 ## :hammer: Setting
 ### 1. enviroment   
 **go** 1.18.3   
@@ -84,6 +81,9 @@ wallets.json 파일에 새로운 지갑이 추가된 모습.
 
 ### 5. PBFT consensus   
 ![image](https://user-images.githubusercontent.com/61136630/192787182-b53619c5-eaf0-4d54-bee5-c992c1050ab0.png)
+
+## :gem: Idea
+
 
 ## :sparkles: More 
 웹 사이트와 연동하여 시연한 영상입니다.   
