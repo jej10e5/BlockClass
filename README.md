@@ -3,7 +3,7 @@
 이를 블록체인에 적용하여 강의 거래가 이루어지면 거래 내용을 블록에 넣어 대쉬보드에 보여주는 기능을 추가하여 블록체인을 활용하는 강의 거래 사이트로 바꾸려고 합니다. 
 ![image](https://user-images.githubusercontent.com/61136630/192709044-edb49a90-4722-409f-a33f-0c32de7f6ab3.png)
 
-## What is the problem?
+## :fire: What is the problem?
 #### 1. 잔고 조회는 어떻게 해야하는가? 
   - BlockChain내부의 TXs를 조회하여 해당하는 지갑의 tx를 모두 모아서 잔고를 계산한다.  
   - Wallet내부에 잔고데이터를 포함시킨다.   
@@ -28,7 +28,7 @@
 
 
 
-## Setting
+## :hammer: Setting
 ### 1. enviroment   
 **go** 1.18.3   
 
@@ -45,7 +45,7 @@ You can see the class365 wallet in `pro_ver0.8/restfulapi/wallet.json`.
 When you run a block server, the class365 wallet is automatically charged.   
 (웹 서버와 연동하려면 웹 db에 관리자 지갑에 wallet.json에 있는 지갑 주소와 잔액을 추가해두어야 합니다.)
 
-## How to perform
+## :wink: How to perform
 ### 1. run `start.bat`    
 배치 파일을 통해 restfulapi, rpc, interface, block, tx 서버를 실행하고, 합의에 필요한 4개의 노드를 실행합니다.   
 This batch file will run servers and nodes. 
@@ -84,7 +84,7 @@ wallets.json 파일에 새로운 지갑이 추가된 모습이다.
 ### 5. PBFT consensus   
 ![image](https://user-images.githubusercontent.com/61136630/192787182-b53619c5-eaf0-4d54-bee5-c992c1050ab0.png)
 
-## More 
+## :sparkles: More 
 웹 사이트와 연동하여 시연한 영상입니다.   
 <a href="https://www.youtube.com/watch?v=ZxV86RR2kP8&t=1s"> <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=YouTube&logoColor=white"/></a>
 
